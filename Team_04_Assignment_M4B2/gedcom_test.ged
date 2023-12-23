@@ -1,0 +1,272 @@
+NOTE - CS555_Agile_Team04_Fall2023
+0 HEAD
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE My Family
+1 DATE 8 SEP 2023
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Nancy Gupta
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Nancy /Smith/
+2 GIVN Nancy
+2 SURN Smith
+2 _MARNM Jones
+1 SEX F
+1 BIRT
+2 DATE 2 MAY 1992
+2 PLAC New York
+1 OCCU Financial Analyst
+2 PLAC Goldman Sachs
+2 PHON 6615324895
+1 RESI
+2 PHON 6615324895
+2 EMAIL nancyjones@gmail.com
+1 FAMS @F1@
+1 FAMC @F2@
+0 @I2@ INDI
+1 NAME Christina /Hill/
+2 GIVN Christina
+2 SURN Hill
+2 _MARNM Smith
+1 SEX F
+1 BIRT
+2 DATE 14 JUN 1963
+2 PLAC San Jose
+1 OCCU Engineer
+2 PLAC McKinsey Co.
+2 PHON 2215634987
+1 RESI
+2 PHON 2215634987
+2 EMAIL christinasmith@gmail.com
+1 FAMS @F2@
+0 @I3@ INDI
+1 NAME David /Smith/
+2 GIVN David
+2 SURN Smith
+2 _MARNM Smith
+1 SEX M
+1 BIRT
+2 DATE 8 FEB 1962
+2 PLAC Jersey City
+1 OCCU Doctor
+2 PLAC Christ Hospital New York
+2 PHON 2015896841
+1 RESI
+2 PHON 2015896841
+2 EMAIL davidsmith@gmail.com
+1 FAMS @F2@
+0 @I4@ INDI
+1 NAME Michael /Jones/
+2 GIVN Michael
+2 SURN Jones
+2 _MARNM Jones
+1 SEX M
+1 BIRT
+2 DATE 19 FEB 1991
+2 PLAC Phoenix
+1 OCCU Data Analyst
+2 PLAC BCG
+2 PHON 2124568745
+1 RESI
+2 PHON 2124568745
+2 EMAIL michaeljones@gmail.com
+1 FAMS @F1@
+0 @I5@ INDI
+1 NAME John /Smith/
+2 GIVN John
+2 SURN Smith
+2 _MARNM Smith
+1 SEX M
+1 BIRT
+2 DATE 25 OCT 1995
+2 PLAC New York
+1 OCCU Doctor
+2 PLAC NY Medical Hospital
+2 PHON 1115624985
+1 RESI
+2 PHON 1115624985
+2 EMAIL johnsmith@gmail.com
+1 FAMS @F3@
+1 FAMS @F5@
+1 FAMC @F2@
+0 @I6@ INDI
+1 NAME Selina /Smith/
+2 GIVN Selina
+2 SURN Smith
+2 _MARNM Turner
+1 SEX F
+1 BIRT
+2 DATE 1 DEC 1998
+2 PLAC Texas
+1 OCCU ML Engineer
+2 PLAC Google
+2 PHON 1452149853
+1 RESI
+2 PHON 1452149853
+2 EMAIL selinaturner@gmail.com
+1 FAMS @F4@
+1 FAMC @F2@
+0 @I7@ INDI
+1 NAME William /Turner/
+2 GIVN William
+2 SURN Turner
+2 _MARNM Turner
+1 SEX M
+1 BIRT
+2 DATE 12 JUL 1996
+2 PLAC New York
+1 OCCU Data Engineer
+2 PLAC Chase Bank
+2 PHON 2214569852
+1 RESI
+2 PHON 2214569852
+2 EMAIL williamturner@gmail.com
+1 FAMS @F4@
+0 @I8@ INDI
+1 NAME Jenny /Miller/
+2 GIVN Jenny
+2 SURN Miller
+2 _MARNM Smith
+1 SEX F
+1 BIRT
+2 DATE 17 AUG 1999
+2 PLAC Rayleigh, NC
+1 OCCU Musician
+2 PLAC AMC, Ny
+2 PHON 2123654789
+1 RESI
+2 PHON 2123654789
+2 EMAIL jennysmith@gmail.com
+1 FAMS @F3@
+0 @I9@ INDI
+1 NAME Henry /Jones/
+2 GIVN Henry
+2 SURN Jones
+2 _MARNM Jones
+1 SEX M
+1 BIRT
+2 DATE 4 SEP 2017
+2 PLAC Hoboken
+1 OCCU Student
+2 PLAC Hoboken high school, Hoboken, Nj
+2 PHON 5514658745
+1 RESI
+2 PHON 5514658745
+2 EMAIL henryjones@gmail.com
+1 FAMC @F1@
+0 @I10@ INDI
+1 NAME Renne /Smith/
+2 GIVN Renne
+2 SURN Smith
+2 _MARNM Smith
+1 SEX F
+1 BIRT
+2 DATE 7 OCT 2018
+2 PLAC New York
+1 OCCU Child
+1 FAMC @F3@
+0 @I11@ INDI
+1 NAME Ray /Turner/
+2 GIVN Ray
+2 SURN Turner
+2 _MARNM Turner
+1 SEX M
+1 BIRT
+2 DATE 13 MAR 2020
+2 PLAC New York
+1 OCCU Child
+1 FAMC @F4@
+0 @I12@ INDI
+1 NAME Samuel /Smith/
+2 GIVN Samuel
+2 SURN Smith
+2 _MARNM Smith
+1 SEX M
+1 BIRT
+2 DATE 6 APR 2019
+2 PLAC New York
+1 OCCU Child
+1 FAMC @F5@
+0 @I13@ INDI
+1 NAME Sera /Garcia/
+2 GIVN Sera
+2 SURN Garcia
+2 _MARNM Smith
+1 SEX F
+1 BIRT
+2 DATE 9 FEB 1999
+2 PLAC Orlando, Florida
+1 OCCU AI Expert
+2 PLAC The Prompt Wizards
+2 PHON 2316598741
+1 RESI
+2 PHON 2316598741
+2 EMAIL serasmith@gmail.com
+1 FAMS @F5@
+0 @I14@ INDI
+1 NAME Jessica /Jones/
+2 GIVN Jessica
+2 SURN Jones
+2 _MARNM Jones
+1 SEX F
+1 BIRT
+2 DATE 6 MAY 2019
+2 PLAC Child
+1 FAMC @F1@
+0 @F1@ FAM
+1 HUSB @I4@
+1 WIFE @I1@
+1 CHIL @I9@
+1 CHIL @I14@
+1 MARR
+2 DATE 1 MAY 2016
+2 PLAC Hoboken NJ
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F2@ FAM
+1 HUSB @I3@
+1 WIFE @I2@
+1 CHIL @I1@
+1 CHIL @I5@
+1 CHIL @I6@
+1 MARR
+2 DATE 17 APR 1988
+2 PLAC New York NY
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F3@ FAM
+1 HUSB @I5@
+1 WIFE @I8@
+1 CHIL @I10@
+1 MARR
+2 DATE 4 DEC 2017
+2 PLAC Detroit
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F4@ FAM
+1 HUSB @I7@
+1 WIFE @I6@
+1 CHIL @I11@
+1 MARR
+2 DATE 10 JUL 2018
+2 PLAC Rochester, Ny
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F5@ FAM
+1 HUSB @I5@
+1 WIFE @I13@
+1 CHIL @I12@
+1 MARR
+2 DATE 7 MAY 2017
+2 PLAC New York
+1 DIV
+2 DATE 18 DEC 2018
+1 _CURRENT N
+1 _PRIMARY N
+0 TRLR

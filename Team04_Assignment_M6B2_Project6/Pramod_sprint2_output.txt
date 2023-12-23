@@ -1,0 +1,50 @@
+Individual
++-----+------------------+--------+------------+-----+-------+-------+--------+-------------+
+|  ID |       Name       | Gender |  Birthday  | Age | Alive | Death | Child  |    Spouse   |
++-----+------------------+--------+------------+-----+-------+-------+--------+-------------+
+|  I1 |  Nancy /Smith/   |   F    | 1992/05/2  |  31 |  True |   NA  | {'F2'} |    {'F1'}   |
+|  I2 | Christina /Hill/ |   F    | 1963/06/14 |  60 |  True |   NA  |   NA   |    {'F2'}   |
+|  I3 |  David /Smith/   |   M    | 1962/02/8  |  61 |  True |   NA  |   NA   |    {'F2'}   |
+|  I4 | Michael /Jones/  |   M    | 1991/02/19 |  32 |  True |   NA  |   NA   |    {'F1'}   |
+|  I5 |   John /Smith/   |   M    | 1995/10/25 |  27 |  True |   NA  | {'F2'} | {'F3','F5'} |
+|  I6 |  Selina /Smith/  |   F    | 1998/12/1  |  24 |  True |   NA  | {'F2'} |    {'F4'}   |
+|  I7 | William /Turner/ |   M    | 1996/07/12 |  27 |  True |   NA  |   NA   |    {'F4'}   |
+|  I8 |  Jenny /Miller/  |   F    | 1999/08/17 |  24 |  True |   NA  |   NA   |    {'F3'}   |
+|  I9 |  Henry /Jones/   |   M    | 2017/09/4  |  6  |  True |   NA  | {'F1'} |      NA     |
+| I10 |  Renne /Smith/   |   F    | 2018/10/7  |  4  |  True |   NA  | {'F3'} |      NA     |
+| I11 |   Ray /Turner/   |   M    | 2020/03/13 |  3  |  True |   NA  | {'F4'} |      NA     |
+| I12 |  Samuel /Smith/  |   M    | 2019/04/6  |  4  |  True |   NA  | {'F5'} |      NA     |
+| I13 |  Sera /Garcia/   |   F    | 1999/02/9  |  24 |  True |   NA  |   NA   |    {'F5'}   |
+| I14 | Jessica /Jones/  |   F    | 2018/12/18 |  4  |  True |   NA  | {'F1'} |      NA     |
++-----+------------------+--------+------------+-----+-------+-------+--------+-------------+
+
+Family
++----+------------+------------+------------+------------------+---------+------------------+------------------+
+| ID |  Married   |  Divorced  | Husband ID |   Husband Name   | Wife ID |    Wife Name     |     Children     |
++----+------------+------------+------------+------------------+---------+------------------+------------------+
+| F1 | 2016/05/1  |     NA     |     I4     | Michael /Jones/  |    I1   |  Nancy /Smith/   |   {'I9','I14'}   |
+| F2 | 1988/04/17 |     NA     |     I3     |  David /Smith/   |    I2   | Christina /Hill/ | {'I1','I5','I6'} |
+| F3 | 2017/12/4  |     NA     |     I5     |   John /Smith/   |    I8   |  Jenny /Miller/  |     {'I10'}      |
+| F4 | 2018/07/10 |     NA     |     I7     | William /Turner/ |    I6   |  Selina /Smith/  |     {'I11'}      |
+| F5 | 2017/05/7  | 2018/12/18 |     I5     |   John /Smith/   |   I13   |  Sera /Garcia/   |     {'I12'}      |
++----+------------+------------+------------+------------------+---------+------------------+------------------+
+Nancy /Smith/ has 5 marriages.
+Christina /Hill/ has 5 marriages.
+David /Smith/ has 5 marriages.
+Michael /Jones/ has 5 marriages.
+John /Smith/ has 5 marriages.
+Selina /Smith/ has 5 marriages.
+William /Turner/ has 5 marriages.
+Jenny /Miller/ has 5 marriages.
+Henry /Jones/ has 5 marriages.
+Renne /Smith/ has 5 marriages.
+Ray /Turner/ has 5 marriages.
+Samuel /Smith/ has 5 marriages.
+Sera /Garcia/ has 5 marriages.
+Jessica /Jones/ has 5 marriages.
+Testcase 15 passed
+Test 15 passed successfully
+.Test 16 passed succesfully
+.
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
